@@ -1,3 +1,9 @@
+# Multiple specific seeds
+dbt seed --select seed1 seed2 --full-refresh
+
+# All seeds (full refresh)
+dbt seed --full-refresh
+
 # dbt-databricks-data-engineering-project
 
 **Seeds:**
