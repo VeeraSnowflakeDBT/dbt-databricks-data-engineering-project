@@ -1,0 +1,16 @@
+{
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/.DS_Store": true,
+        "**/Thumbs.db": true,
+        ".mule": true
+    },
+    "files.watcherExclude": {
+        "**/dbt_packages/**": true,
+        "**/target/**": true,
+        "**/venv/**": true
+    },
+    "python.pythonPath": "venv\\Scripts\\python.exe"
+}
